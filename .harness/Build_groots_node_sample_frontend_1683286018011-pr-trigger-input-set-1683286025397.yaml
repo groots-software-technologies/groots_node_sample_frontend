@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_groots_node_sample_frontend_1683286018011-pr-trigger-input-set
+  identifier: Build_groots_node_sample_frontend_1683286018011prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: samplecitest
+  pipeline:
+    identifier: Build_groots_node_sample_frontend_1683286018011
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
