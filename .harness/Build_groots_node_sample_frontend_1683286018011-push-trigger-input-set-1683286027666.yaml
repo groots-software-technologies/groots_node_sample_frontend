@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_groots_node_sample_frontend_1683286018011-push-trigger-input-set
+  identifier: Build_groots_node_sample_frontend_1683286018011pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: samplecitest
+  pipeline:
+    identifier: Build_groots_node_sample_frontend_1683286018011
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
